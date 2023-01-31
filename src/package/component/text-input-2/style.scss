@@ -1,0 +1,19 @@
+.text-input-wrapper {
+  height: 35px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  div, button {
+    // display: inline-block;
+    flex-shrink: 0;
+  }
+  .rs-text {
+      max-width: calc(100% - 64px);
+      overflow: hidden;
+      .span-text {
+        cursor: pointer;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+  }
+}

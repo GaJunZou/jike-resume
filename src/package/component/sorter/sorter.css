@@ -1,0 +1,16 @@
+.tps-sorter {
+  display: inline-flex;
+  flex-direction: column;
+  vertical-align: middle;
+}
+.tps-sorter span {
+  color: #909399;
+  line-height: 8px;
+  font-size: 14px;
+}
+.tps-sorter span:hover {
+  color: #66b1ff;
+}
+.tps-sorter .sorter-active span {
+  color: #66b1ff;
+}

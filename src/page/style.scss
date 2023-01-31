@@ -1,0 +1,48 @@
+.module-space {
+  padding-top: 5px;
+}
+
+.drag-trigger {
+  float: right;
+}
+
+.edit-bar {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  width: 100px;
+  button {
+    margin: 10px auto;
+  }
+}
+
+.edit-item {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.resume-page {
+  position: relative;
+}
+.a4-divider {
+  position: absolute;
+  height: 0px;
+  width: 120%;
+  border-bottom: 1px solid red;
+  top: 100px;
+  left: -10%;
+}
+.custom-warn {
+  border-color: #faad14;
+  background: #faad14;
+}
+.custom-warn:hover {
+  border-color: #ffc85a;
+  background: #ffc85a;
+}
+
+.move-target {
+  position: fixed;
+  top: 0;
+  left: 0;
+}

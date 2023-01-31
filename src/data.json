@@ -1,0 +1,67 @@
+{
+  "base": {
+    "name": "张三",
+    "age": "年龄：24",
+    "phone": "电话：19876543210",
+    "email": "邮箱：1234567890@gmail.com",
+    "city": "城市：广州",
+    "post": "职位：前端开发",
+    "sex": "性别：男",
+    "image": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
+  },
+  "module": [
+    {
+      "id": 1,
+      "title": "教育背景",
+      "type": "group",
+      "group": [
+        {
+          "id": 334,
+          "subTitle": ["清华大学", "2017-9 ~ 2021-6", "软件工程专业"],
+          "htmlDesc": "<ul><li>主修课程主要有：高等数学、计算机网络、数据结构与算法、操作系统、离散数学等。</li><li>大学期间获得CET4证书。</li><li>计算机二级。</li></ul>"
+        },
+        {
+          "id": "1673680767432756",
+          "subTitle": ["山东蓝翔", "2013-9~2017-6", "挖掘机专业"],
+          "htmlDesc": "<p>开挖掘机</p>"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "技能特长",
+      "type": "simple",
+      "subTitle": ["", "", ""],
+      "htmlDesc": "<ol><li>熟练使用 JavaScript，熟悉ES5、ES6新特性。</li><li>熟练使用 HTML 、CSS 各种页面布局。</li><li>熟练使用Vue2，了解Vue3，理解MVVM开发模式。</li></ol>"
+    },
+    {
+      "id": 4,
+      "title": "工作经历",
+      "type": "group",
+      "group": [
+        {
+          "id": 12,
+          "subTitle": ["棒谷科技有限公司", "2021-12 ~ 至今", "web前端"],
+          "htmlDesc": "<p>公司介绍：棒谷科技有限公司是大型B2C跨境出口大型电子商务综合体，有自有站点和入驻亚马逊等海外平台，是跨境电商的龙头企业之一。集团总部位于广州，在全国多地均有子公司，现拥有一支数千人的年轻精英团队。</p><ol><li>负责高效、高质地完成代码编写，确保符合规范的前端代码规范；</li><li>负责公司现有项目和新项目的前端修改调试和开发工作，前端样式脚本的模块设计及优化；</li><li>参与部门内部组件开发及维护，参与组件文档编写；</li><li>与产品、设计师、开发人员配合，根据需求调整、修改、优化页面；</li><li>利用各种前端技术手段，提高用户体验并满足性能要求。</li></ol>"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "项目经验",
+      "type": "group",
+      "group": [
+        {
+          "id": 13,
+          "subTitle": ["后台管理系统", "2021-12 ~ 至今", "前端开发"],
+          "htmlDesc": "<p>技术栈：<strong>Vue、vuex、vue-router、elementUI</strong></p><p>项目介绍：...</p><p>主要工作：</p><ol><li>xxx</li><li>xxx</li><li>xxx</li></ol><p><br></p><p><br></p><p><br></p>"
+        },
+        {
+          "id": 23,
+          "subTitle": ["封装通用组件", "2022-03 ~ 2022-06", "前端开发"],
+          "htmlDesc": "<p>技术栈：<strong>Vue</strong>、<strong>ElementUI</strong>、<strong>vuepress</strong>、<strong>npm</strong></p><p>项目介绍：...</p><p>主要工作：</p><ol><li>xxx</li><li>xxx</li><li>xxx</li></ol>"
+        }
+      ]
+    }
+  ]
+}

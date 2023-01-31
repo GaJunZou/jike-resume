@@ -1,0 +1,20 @@
+.tps-checkbox {
+  margin: auto 10px;
+}
+.tps-popover {
+  padding: 0px;
+  .ant-popover-content .ant-popover-arrow {
+    display: none;
+  }
+  .ant-popover-inner .tps-checkbox-header{
+    height: 32px;
+    margin-bottom: 10px;
+      input {
+        float: left;
+      }
+      button {
+        margin-right: 10px;
+        float: right;
+      }
+    }
+}

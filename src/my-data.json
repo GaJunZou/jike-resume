@@ -1,0 +1,73 @@
+{
+  "base": {
+    "name": "邹家进",
+    "age": "年龄",
+    "phone": "电话",
+    "email": "邮箱",
+    "city": "城市",
+    "post": "职位",
+    "sex": "性别",
+    "image": ""
+  },
+  "module": [
+    {
+      "id": 2,
+      "title": "技能特长",
+      "type": "simple",
+      "subTitle": ["", "", ""],
+      "htmlDesc": "<ol><li>熟练使用 JavaScript，熟悉ES5、ES6新特性。</li><li>熟练使用 HTML 、CSS 各种页面布局。</li><li>熟练使用Vue2，了解Vue3，理解MVVM开发模式。</li><li>熟悉使用Angular + TypeScript 开发项目。</li><li>了解过react，对部分语法及概念有一定了解。</li><li>熟练使用 Git 进行多人协同开发。</li><li>了解webpack、glup等打包工具。</li><li>了解浏览器原理及http机制。</li><li>了解node，有node开发服务端接口经历。</li><li>有 uni-app 开发 App、小程序经验。</li></ol>"
+    },
+    {
+      "id": 1,
+      "title": "教育背景",
+      "type": "simple",
+      "subTitle": ["肇庆学院", "2017-9 ~ 2021-6", "软件工程专业（本科）"],
+      "htmlDesc": "<ul><li>主修课程主要有：高等数学、计算机网络、数据结构与算法、操作系统、离散数学等。</li><li>大学期间获得CET4证书。</li></ul>"
+    },
+    {
+      "id": 4,
+      "title": "工作经历",
+      "type": "group",
+      "group": [
+        {
+          "id": 12,
+          "subTitle": ["棒谷科技有限公司", "2021-12 ~ 至今", "web前端"],
+          "htmlDesc": "<p>公司介绍：棒谷科技有限公司是大型B2C跨境出口大型电子商务综合体，有自有站点和入驻亚马逊等海外平台，是跨境电商的龙头企业之一。集团总部位于广州，在全国多地均有子公司，现拥有一支数千人的年轻精英团队。</p><ol><li>负责高效、高质地完成代码编写，确保符合规范的前端代码规范；</li><li>负责公司现有项目和新项目的前端修改调试和开发工作，前端样式脚本的模块设计及优化；</li><li>参与部门内部组件开发及维护，参与组件文档编写；</li><li>与产品、设计师、开发人员配合，根据需求调整、修改、优化页面；</li><li>利用各种前端技术手段，提高用户体验并满足性能要求。</li></ol>"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "项目经验",
+      "type": "group",
+      "group": [
+        {
+          "id": 13,
+          "subTitle": ["商品在售及发布系统", "2021-12 ~ 至今", "前端开发"],
+          "htmlDesc": "<p>技术栈：<strong>Angular</strong>、<strong>TypeScript</strong>、<strong>ng-zorro</strong>、<strong>echart</strong></p><p>项目介绍：用于多条件查询自研平台以及第三方平台发布的商品详细信息，通过该系统可以直观查询商品整个生命周期、商品类目、商品库存、商品价格变化曲线、同类型商品价格比对、销量等信息。也可以可发布新商品，需要填写完整商品范本，比如sku、标题、类目、价格、描述等。</p><p>主要工作：</p><ol><li>商品在售模块接入20+平台时，负责开发相应的方法及组件，使用JSON配置化生成不同平台在售页面。</li><li>使用虚拟滚动技术以及分页搜索优化长列表及复杂表格列表。</li><li>使用echart开发竟对价格曲线图，可以直观对比相同产品在不同平台下的销量、价格、库存对比情况。</li><li>开发动态表单，应用于商品上架时添加商品POA，涉及表单项拖拽、一键匹配尺码颜色、联动属性图片、回显表单数据等功能。</li></ol><p><br></p>"
+        },
+        {
+          "id": 23,
+          "subTitle": ["封装vue通用组件", "2022-03 ~ 2022-06", "前端开发"],
+          "htmlDesc": "<p>技术栈：<strong>Vue</strong>、<strong>ElementUI</strong>、<strong>vuepress</strong>、<strong>npm</strong></p><p>项目介绍：此前公司使用的前端框架为Angular，现在要转为Vue。但是目前尚无适用于Vue的组件，需要重新开发一套适合本部门的公共组件。</p><p>主要工作：</p><ol><li>负责封装表格排序组件、列表选择器、分类列表选择器、多选树、定位折叠面板等组件。</li><li>负责封装v-copy点击复制内容指令、v-compact表单项紧凑模式指令、v-time时间格式化指令。</li><li>负责开发服务式弹窗，支持传入字符串、组件实例、render函数、jsx创建组件。</li><li>项目接入vuepress，编写并发布组件文档，详情可查看 <a href=\"https://gajunzou.github.io/tps-cpn/\" target=\"_blank\">https://gajunzou.github.io/tps-cpn/</a></li></ol>"
+        }
+      ]
+    },
+    {
+      "id": "1673676997609691",
+      "title": "个人作品",
+      "type": "group",
+      "group": [
+        {
+          "subTitle": ["垃圾回收app及服务端（毕设）", " 2021-10 ~ 2022-02", "前端开发，node开发"],
+          "htmlDesc": "<p>技术栈：<strong>Vue</strong>、<strong>ElementUI</strong>、<strong>uniapp</strong>、<strong>nodejs</strong>、<strong>Express</strong>、<strong>MongoDB</strong></p><p><strong>项目介绍：为回收人员开发手机app，分为用户端和回收</strong>端，用户发布订单，通过node服务发布到订单池，然后通知附近的回收人员进行接单，接单后预计价格和时间，并自动导航到用户指定地点，用户可实时查看回收人员的导航位置。</p><p>主要工作：</p><ol><li>使用goeasy实现即使通讯，实现客户与回收人员之间的信息通讯。</li><li>用户端和回收端实现单点登录，当在其他设备登录时会强制下线原设备。</li><li>使用colorui开发组件，并兼容市面上大部分手机尺寸的样式。</li><li>接入高德地图，用于获取定位、路线以及导航。</li></ol>"
+        },
+        {
+          "id": "1673677044058603",
+          "subTitle": ["原生js实用工具类", " 2022-09 ~ 2022-11", " 前端开发"],
+          "htmlDesc": "<p>技术栈：<strong>ES6、glup、（webpack）</strong></p><p>项目介绍：使用原生js以及es6语法，开发的一些实用的工具类，并且尝试使用glup和webpack进行打包。 包括：</p><ol><li>图片查看类。可对图片或图片组进行预览、放大、缩小、旋转、上一张、下一张、拖动位置等功能。</li><li>消息提示类。可进行成功、失败、警告、提醒等提示，同时支持异步关闭。支持自定义提示窗口类名、样式、持续时间及位置。</li><li>拖拽排序类。对于添加特定类名的dom可进行拖拽，若绑定了数组还可以进行数组的可视化排序。</li><li>右键呼出菜单类。点击鼠标右键时呼出菜单，可对相应事件进行回调。</li></ol>"
+        }
+      ]
+    }
+  ]
+}
